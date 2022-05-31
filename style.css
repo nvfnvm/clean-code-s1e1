@@ -30,7 +30,7 @@
 .tasks-block__text {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 .tasks-block__wrapper {
   display: flex;
@@ -129,18 +129,18 @@
 
 /* Completed */
 .tasks-block__completed-list .tasks-block__label-text {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 .tasks-block__list-item .tasks-block__input-text {
-  display: none
+  display: none;
 }
 
 .tasks-block__list-item_edit .tasks-block__input-text {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .tasks-block__list-item_edit .tasks-block__label-text {
