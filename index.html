@@ -19,16 +19,18 @@
 
     <main class="main tasks-block">
 
-      <section id="tasks-block__add-block">
-        <h3 class="tasks-block__title tasks-block__new-task-title"><label for="tasks-block__new-task">Add Item</label></h3>
-        <div class="task-row-wrapper">
-          <input id="tasks-block__new-task" 
-          class="tasks-block__text tasks-block__input-text tasks-block__new-task-input" 
-          type="text">
-          <button>Add</button>
+      <section class="tasks-block__add-block">
+        <h3 class="tasks-block__title tasks-block__new-task-title">
+          <label for="tasks-block__new-task">Add Item</label>
+        </h3>
+        <div class="tasks-block__wrapper">
+          <input id="tasks-block__new-task"
+                 class="tasks-block__text tasks-block__input-text tasks-block__new-task-input"
+                 type="text">
+          <button class="tasks-block__btn">Add</button>
         </div>
-
       </section>
+
       <section class="tasks-block__incomplete-block">
         <h3 class="tasks-block__title">Todo</h3>
         <ul id="tasks-block__incomplete-tasks" 
@@ -42,7 +44,7 @@
           </li>
           <li class="tasks-block__list-item tasks-block__list-item_edit">
             <input type="checkbox" class="tasks-block__checkbox">
-            <label class="task" class="tasks-block__text tasks-block__label-text">Go Shopping</label>
+            <label class="task" class="tasks-block__text tasks-block__label-text"></label>
             <input type="text" value="Go Shopping" class="tasks-block__text tasks-block__input-text">
             <button class="tasks-block__btn tasks-block__btn-edit">Save</button>
             <button class="tasks-block__btn tasks-block__btn-delete"><img src="./remove.svg" class="tasks-block__btn-image" alt="remove-svg"></button>
